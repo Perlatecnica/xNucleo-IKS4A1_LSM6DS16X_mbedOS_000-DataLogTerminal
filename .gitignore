@@ -1,0 +1,8 @@
+.build
+.mbed
+projectfiles
+*.py*
+mbed-os
+BUILD
+
+plt_lsm6dsv16x
