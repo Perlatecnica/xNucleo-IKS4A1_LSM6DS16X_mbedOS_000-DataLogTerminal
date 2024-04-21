@@ -4,6 +4,7 @@ MIT License
 Copyright (c) [2024] 
 Organization: Perlatecnica APS ETS
 Author: Mauro D'Angelo
+Example Example to use the LSM6DSV16X inertial measurement sensor
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -44,6 +45,8 @@ void blinkLed(){
 int main()
 {
     pc.baud(115200);
+
+    pc.printf("Example to use the LSM6DSV16X inertial measurement sensor\r\n");
 
     lsm6dsv16x.begin();
     lsm6dsv16x.Enable_X();
